@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='example-python',
-    version='0.1.0',
+    version='1.0.0',
     description='Example showcasing the dev tooling for Python based development',
     author='Ferenc Nandor Janky & Attila Gombos',
     author_email='info@effective-range.com',
