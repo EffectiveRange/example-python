@@ -3,7 +3,8 @@ from setuptools import setup
 setup(
     name='example-python',
     version='1.0.0',
-    description='Example showcasing the dev tooling for Python based development',
+    description='Example Python project',
+    long_description='Example showcasing the dev tooling for Python based development',
     author='Ferenc Nandor Janky & Attila Gombos',
     author_email='info@effective-range.com',
     packages=['example'],
