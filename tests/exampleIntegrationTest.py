@@ -9,7 +9,7 @@ from context_logger import setup_logging
 from example import INetifacesWrapper, Example, TablePrinter
 
 
-class ExampleTest(TestCase):
+class ExampleIntegrationTest(TestCase):
 
     @classmethod
     def setUpClass(cls):
