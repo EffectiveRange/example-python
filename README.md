@@ -1,3 +1,6 @@
+[![Test and Release](https://github.com/EffectiveRange/example-python/actions/workflows/test_and_release.yml/badge.svg)](https://github.com/EffectiveRange/example-python/actions/workflows/test_and_release.yml)
+[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/EffectiveRange/example-python/python-coverage-comment-action-data/endpoint.json)](https://htmlpreview.github.io/?https://github.com/EffectiveRange/example-python/blob/python-coverage-comment-action-data/htmlcov/index.html)
+
 # example-python
 Example showcasing the dev tooling for Python based development
 
@@ -30,7 +33,7 @@ pip install .
 
 ### Options
 
-```commandline
+```bash
 $ bin/example-python.py --help
 usage: example-python.py [-h] [-f LOG_FILE] [-l LOG_LEVEL] [-i INTERFACE]
 
@@ -46,7 +49,7 @@ network interface name (default: None)
 
 ### Running the application
 
-```commandline
+```bash
 $ bin/example-python.py
 2024-06-19T05:27:47.761649Z [info     ] Starting example python app    [ExampleApp] app_version=0.1.0 application=example-python arguments={'log_file': None, 'log_level': 'info', 'interface': None} hostname=Legion7iPro
 2024-06-19T05:27:47.776165Z [info     ] Retrieving info for all interfaces [Example] app_version=0.1.0 application=example-python hostname=Legion7iPro
@@ -59,7 +62,7 @@ $ bin/example-python.py
 #=================================================#
 ```
 
-```commandline
+```bash
 $ bin/example-python.py -i eth0
 2024-06-19T05:33:40.646111Z [info     ] Starting example python app    [ExampleApp] app_version=0.1.0 application=example-python arguments={'log_file': None, 'log_level': 'info', 'interface': 'eth0'} hostname=Legion7iPro
 2024-06-19T05:33:40.668390Z [info     ] Retrieving interface info      [Example] app_version=0.1.0 application=example-python hostname=Legion7iPro interface=eth0
@@ -70,7 +73,7 @@ $ bin/example-python.py -i eth0
 #=================================================#
 ```
 
-```commandline
+```bash
 $ bin/example-python.py -i eth1 -l error
 2024-06-19T05:34:17.685515Z [error    ] Error retrieving interface     [Example] app_version=0.1.0 application=example-python error=You must specify a valid interface name. hostname=Legion7iPro interface=eth1
 #=================================================#
