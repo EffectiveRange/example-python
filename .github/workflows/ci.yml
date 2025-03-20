@@ -1,0 +1,20 @@
+name: Test and Release
+
+on:
+  push:
+    branches: main
+    tags: v*.*.*
+
+  pull_request:
+    branches: [ "main" ]
+    types:
+      - synchronize
+      - opened
+      - reopened
+
+jobs:
+  call_ci:
+    uses: EffectiveRange/ci-workflows/.github/workflows/python-ci.yaml@v3
+    with:
+      coverage-threshold: 95
+      package-type: 'wheel, fpm-deb, dh-virtualenv'
