@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='example-python',
-    version='1.0.1',
+    version='1.0.2',
     description='Example Python project',
     long_description='Example showcasing the dev tooling for Python based development',
     author='Ferenc Nandor Janky & Attila Gombos',
