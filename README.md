@@ -1,4 +1,4 @@
-[![Test and Release](https://github.com/EffectiveRange/example-python/actions/workflows/test_and_release.yml/badge.svg)](https://github.com/EffectiveRange/example-python/actions/workflows/test_and_release.yml)
+[![CI](https://github.com/EffectiveRange/example-python/actions/workflows/ci.yaml/badge.svg)](https://github.com/EffectiveRange/example-python/actions/workflows/ci.yaml)
 [![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/EffectiveRange/example-python/python-coverage-comment-action-data/endpoint.json)](https://htmlpreview.github.io/?https://github.com/EffectiveRange/example-python/blob/python-coverage-comment-action-data/htmlcov/index.html)
 
 # example-python
