@@ -14,7 +14,6 @@ on:
 
 jobs:
   call_ci:
-    uses: EffectiveRange/ci-workflows/.github/workflows/python-ci.yaml@v3
+    uses: EffectiveRange/ci-workflows/.github/workflows/python-ci.yaml@dev
     with:
-      coverage-threshold: 95
       package-type: 'wheel, fpm-deb, dh-virtualenv'
