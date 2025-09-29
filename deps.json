@@ -1,0 +1,8 @@
+{
+  "deps": [
+    {
+      "name": "python3-context-logger",
+      "hostinstall": true
+    }
+  ]
+}
