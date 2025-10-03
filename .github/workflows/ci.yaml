@@ -14,6 +14,6 @@ on:
 
 jobs:
   call_ci:
-    uses: EffectiveRange/ci-workflows/.github/workflows/python-ci.yaml@latest-python
+    uses: EffectiveRange/ci-workflows/.github/workflows/python-ci.yaml@dev
     with:
       package-type: 'wheel, wheel-deb, fpm-deb'
