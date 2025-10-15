@@ -16,5 +16,4 @@ jobs:
   call_ci:
     uses: EffectiveRange/ci-workflows/.github/workflows/python-ci.yaml@python-dev
     with:
-      test-overlay: 'vision'
       package-type: 'wheel, wheel-deb, fpm-deb'
